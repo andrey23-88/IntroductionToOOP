@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 class Point
@@ -55,7 +55,7 @@ void main()
 	setlocale(LC_ALL, "");
 #ifdef STRUCT_POINT
 	cout << "Hello OOP" << endl;
-	int a; // îáüÿâëåíèå ïåðåìåííîé à òèïà èíò
+	int a; // Ð¾Ð±ÑŒÑÐ²Ð»ÐµÐ½Ð¸Ðµ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð¾Ð¹ Ð° Ñ‚Ð¸Ð¿Ð° Ð¸Ð½Ñ‚
 	Point A;// 
 	A.x = 2;
 	A.y = 3;
@@ -73,9 +73,9 @@ void main()
 	Point B;
 	B.set_x(7);
 	B.set_y(8);
-	cout << "Ðàññòîÿíèå îò òî÷êè 'A' äî òî÷êè 'B' :\t " << A.distance(B) << endl;
-	cout << "Ðàññòîÿíèå îò òî÷êè 'B' äî òî÷êè 'A' :\t " << B.distance(A) << endl;
-	cout << "Ðàññòîÿíèå ìåæäó òî÷êàìè 'A' è 'B' :\t" << distance(A, B) << endl;
-	cout << "Ðàññòîÿíèå ìåæäó òî÷êàìè 'B' è 'A' :\t" << distance(B, A) << endl;
+	cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð¾Ñ‚ Ñ‚Ð¾Ñ‡ÐºÐ¸ 'A' Ð´Ð¾ Ñ‚Ð¾Ñ‡ÐºÐ¸ 'B' :\t " << A.distance(B) << endl;
+	cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð¾Ñ‚ Ñ‚Ð¾Ñ‡ÐºÐ¸ 'B' Ð´Ð¾ Ñ‚Ð¾Ñ‡ÐºÐ¸ 'A' :\t " << B.distance(A) << endl;
+	cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð¼ÐµÐ¶Ð´Ñƒ Ñ‚Ð¾Ñ‡ÐºÐ°Ð¼Ð¸ 'A' Ð¸ 'B' :\t" << distance(A, B) << endl;
+	cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð¼ÐµÐ¶Ð´Ñƒ Ñ‚Ð¾Ñ‡ÐºÐ°Ð¼Ð¸ 'B' Ð¸ 'A' :\t" << distance(B, A) << endl;
 #endif // DISTANCE_CHECK
 }
